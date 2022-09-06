@@ -40,7 +40,7 @@ def get_next_word_random(word):
     return random.choice(list(words))
 
 
-  def get_sentence():
+def get_sentence():
     first_word = random.choice(list(first_words))
     sentence = first_word.strip() + " "
     next_word = get_next_word(first_word)
@@ -64,6 +64,8 @@ def get_next_word_random(word):
         next_word = get_next_word(first_word)
 
     return sentence.strip()
+
+
 
 
 # generating 50 random sentences in a file
